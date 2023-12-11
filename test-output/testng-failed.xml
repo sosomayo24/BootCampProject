@@ -5,7 +5,7 @@
     <classes>
       <class name="com.automation.three.selenium.framework.questions.TN_TestNG">
         <methods>
-          <include name="verifyingTitle"/>
+          <include name="login"/>
           <include name="tutorialsNinja"/>
         </methods>
       </class> <!-- com.automation.three.selenium.framework.questions.TN_TestNG -->
