@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.three.selenium.framework.questions.medium.HomePageTest">
+      <class name="com.automation.three.selenium.framework.questions.difficult.SearchTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="testVerifyElement"/>
+          <include name="tearDown"/>
+          <include name="testSearchWithNoEntry"/>
         </methods>
-      </class> <!-- com.automation.three.selenium.framework.questions.medium.HomePageTest -->
+      </class> <!-- com.automation.three.selenium.framework.questions.difficult.SearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
